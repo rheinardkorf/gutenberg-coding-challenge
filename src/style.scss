@@ -6,7 +6,7 @@
 		align-items: center;
 		border-bottom: 1px solid #dcdcde;
 		display: flex;
-		height: calc(200 + 5vw);
+		height: calc(200px + 5vw);
 		justify-content: center;
 		overflow: hidden;
 		position: relative;
@@ -17,7 +17,7 @@
 			content: attr(data-emoji-flag);
 			display: flex;
 			filter: blur(3vh) saturate(3) contrast(1) opacity(0.4);
-			font-size: calc(800 + 3vh);
+			font-size: calc(800px + 3vh);
 			height: 100%;
 			justify-content: center;
 			left: 0;
@@ -30,7 +30,7 @@
 }
 
 .xwp-country-card-flag {
-	font-size: calc(200 + 3vw);
+	font-size: calc(200px + 3vw);
 	line-height: 1;
 }
 
